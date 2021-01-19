@@ -1,0 +1,193 @@
+:root {
+  --logo-color: #000000;
+  --main-lite-color: #FFFFFF;
+  --main-textcolor: #757575;
+  --sec-textcolor: #212121;
+  --accent-color: #2196f3;
+  --back1-color: #2f303a;
+  --back2-color: #f5f4fa;
+  --back3-color: #2f303a;
+  --basecont-color: rgba(255,255,255,0,6); 
+}
+body {
+  background-color: var(--main-lite-color);
+  color: var(--main-textcolor);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+}
+/* Шапка сайта */
+.sitehead-logo {
+  color: var(--logo-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.web {
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.site-nav .link {
+  color: var(--sec-textcolor);
+
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+.contact-nav .link {
+  color: var(--main-textcolor);
+
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+/* Эффективные решения */
+.solution {
+  background-color: var(--back1-color);
+}
+.solution-title {
+  color: var(--main-lite-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.solution-button {
+  background-color: var(--accent-color);
+  color: var(--main-lite-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+/* Наши преимущества */
+.advantages-list .title {
+  color: var(--sec-textcolor);
+  
+  font-weight: 700;
+  line-height: 1.143;
+  text-transform: uppercase;
+}
+.advantages-list {
+  
+  font-weight: normal;
+  line-height: 1.71;
+}
+/* Чем мы занимаемся */
+.activities-title {
+  color: var(--sec-textcolor);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+}
+/* Наша команда */
+.ourteam {
+  background-color: var(--back2-color);
+
+font-size: 16px;
+line-height: 1.188;
+}
+.ourteam-title {
+  color: var(--sec-textcolor);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+}
+.ourteam-list .title {
+  color: var(--sec-textcolor);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+}
+/* Портфолио */
+.examples-button {
+  background-color: var(--back2-color);
+  color: var(--sec-textcolor);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  }
+.examples-text {
+  color: var(--main-textcolor)
+}
+.examples-button:hover,
+.examples-button:focus {
+  background-color: var(--accent-color);
+  color: var(--main-lite-color);
+}
+.examples-list {
+  font-size: 16px;
+  line-height: 1.875;
+}
+.examples-list .title {
+  color: var(--sec-textcolor);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/* Футер */
+.basement {
+  background-color: var(--back3-color);
+}
+.basement-logo {
+  color: var(--main-lite-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+address {
+  font-style: normal;
+}
+.basement-address {
+  color: var(--main-lite-color);
+
+  line-height: 1.71;
+}
+.basement-contact {
+  color: var(--basecont-color);
+
+  line-height: 1.71;
+}
+
+/* черный логотипа #000000 */
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* подложка темная #2F303A */
+/* подложка светлая низ #F5F4FA */
+/* нижний адреса rgba(255,255,255,0.6) */
