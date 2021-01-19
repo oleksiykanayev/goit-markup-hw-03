@@ -165,7 +165,8 @@ line-height: 1.188;
 }
 .basement-logo {
   color: var(--main-lite-color);
-  font-family: var(--second-font)
+
+  font-family: var(--second-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
