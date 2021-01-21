@@ -78,6 +78,7 @@ body {
 }
 /* Эффективные решения */
 .solution {
+  margin-bottom: 94px;
   background-color: var(--back1-color);
   text-align: center;
 }
@@ -108,6 +109,9 @@ body {
   text-align: center;
 }
 /* Наши преимущества */
+.advantages {
+  margin-bottom: 94px;
+}
 .advantages-list .title {
   color: var(--sec-textcolor);
   
@@ -121,6 +125,9 @@ body {
   line-height: 1.71;
 }
 /* Чем мы занимаемся */
+.activities {
+  margin-bottom: 94px;
+}
 .activities-title {
   color: var(--sec-textcolor);
 
@@ -131,6 +138,7 @@ body {
 }
 /* Наша команда */
 .ourteam {
+  margin-bottom: 94px;
   background-color: var(--back2-color);
 
 font-size: 16px;
