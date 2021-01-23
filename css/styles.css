@@ -102,7 +102,7 @@ body {
   display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
-  border: none ;
+  border: none;
   background-color: var(--accent-color);
   color: var(--main-lite-color);
 
@@ -175,8 +175,18 @@ body {
   margin-bottom: 30px;
 }
 /* Портфолио */
+.examples {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.examples-buttlist {
+  margin-bottom: 34px;
+}
 .examples-button {
+  display: inline-block;
   border-radius: 4px;
+  padding: 5.89px 22px;
+  border: none;
   background-color: var(--back2-color);
   color: var(--sec-textcolor);
 
@@ -185,6 +195,9 @@ body {
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
+}
+.examples-image {
+  margin-bottom: 20px;
 }
 .examples-text {
   color: var(--main-textcolor);
@@ -199,12 +212,16 @@ body {
   line-height: 1.875;
 }
 .examples-list .title {
+  margin-bottom: 4px;
   color: var(--sec-textcolor);
 
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+.examples-text {
+  margin-bottom: 20px;
 }
 
 /* Футер */
