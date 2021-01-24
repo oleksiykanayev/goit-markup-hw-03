@@ -260,7 +260,7 @@ body {
 }
 .examples-card {
   width: calc((100%-60px) / 3);
-  margin: 15px;
+  margin: 14px;
   border: 1px solid var(--bord-port-color);
 }
 .examples-text {
