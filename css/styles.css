@@ -7,6 +7,7 @@
   --back1-color: #2f303a;
   --back2-color: #f5f4fa;
   --back3-color: #2f303a;
+  --bord-port-color: #EEEEEE;
   --basecont-color: rgba(255, 255, 255, 0, 6);
   --second-font: Raleway, sans-serif;
 }
@@ -46,8 +47,6 @@ body {
 }
 /* Шапка сайта */
 .headnav {
-  padding-top: 24px;
-  padding-bottom: 25px;
   display: flex;
   align-items: center;
 }
@@ -56,6 +55,8 @@ body {
   align-items: center;
 }
 .sitehead-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
   color: var(--logo-color);
 
@@ -74,6 +75,10 @@ body {
 }
 .site-nav {
   display: flex;
+}
+.site-nav .snav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .site-nav .snav-link:not(:last-child) {
   margin-right: 50px;
@@ -205,11 +210,11 @@ body {
   line-height: 1.167;
   text-align: center;
 }
-.ourteam-image {
-  margin-bottom: 30px;
-}
 .ourteam-list .title {
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
   color: var(--sec-textcolor);
 
   font-weight: 500;
@@ -217,7 +222,9 @@ body {
   line-height: 1.188;
 }
 .ourteam-profession {
-  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 /* Портфолио */
 .examples {
@@ -254,13 +261,10 @@ body {
 .examples-card {
   width: calc((100%-60px) / 3);
   margin: 15px;
-}
-.examples-image {
-  margin-bottom: 20px;
+  border: 1px solid var(--bord-port-color)
 }
 .examples-text {
-  margin-left: 24px;
-  margin-bottom: 20px;
+  padding: 4px 24px 20px 24px;
   color: var(--main-textcolor);
 }
 .examples-button:hover,
@@ -273,8 +277,9 @@ body {
   line-height: 1.875;
 }
 .examples-list .title {
-  margin-left: 24px;
-  margin-bottom: 4px;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-left: 24px;;
   color: var(--sec-textcolor);
 
   font-weight: 700;
