@@ -46,6 +46,9 @@ body {
   margin: 0 auto;
 }
 /* Шапка сайта */
+.sitehead {
+  border-bottom: 1px solid #ECECEC ;
+}
 .headnav {
   display: flex;
   align-items: center;
@@ -258,8 +261,8 @@ body {
   margin: -15px;
 }
 .examples-card {
-  width: calc((100%-60px) / 3);
-  margin: 14px;
+  width: calc((100% - 90px) / 3);
+  margin: 15px;
   border: 1px solid var(--bord-port-color);
 }
 .examples-text {
