@@ -76,21 +76,18 @@ body {
 .site-nav {
   display: flex;
 }
-.site-nav .snav-link {
+.site-nav .link {
   padding-top: 32px;
   padding-bottom: 32px;
-}
-.site-nav .snav-link:not(:last-child) {
-  margin-right: 50px;
-}
-.site-nav .link {
   color: var(--sec-textcolor);
 
   font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
-
+.site-nav .snav-link:not(:last-child) {
+  margin-right: 50px;
+}
 .contact-nav {
   display: flex;
   margin-left: auto;
@@ -99,6 +96,8 @@ body {
   margin-right: 50px;
 }
 .contact-nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--main-textcolor);
 
   font-weight: 500;
