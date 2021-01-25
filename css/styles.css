@@ -8,6 +8,7 @@
   --back2-color: #f5f4fa;
   --back3-color: #2f303a;
   --bord-port-color: #eeeeee;
+  --siteheadbord-color: #ececec;
   --basecont-color: rgba(255, 255, 255, 0, 6);
   --second-font: Raleway, sans-serif;
 }
@@ -47,7 +48,7 @@ body {
 }
 /* Шапка сайта */
 .sitehead {
-  border-bottom: 1px solid #ECECEC ;
+  border-bottom: 1px solid var(--siteheadbord-color);
 }
 .headnav {
   display: flex;
@@ -212,11 +213,14 @@ body {
   line-height: 1.167;
   text-align: center;
 }
+.team-textblock {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .ourteam-list .title {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   color: var(--sec-textcolor);
 
   font-weight: 500;
@@ -226,7 +230,6 @@ body {
 .ourteam-profession {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
 }
 /* Портфолио */
 .examples {
@@ -265,8 +268,10 @@ body {
   margin: 15px;
   border: 1px solid var(--bord-port-color);
 }
+.port-textblock {
+  padding: 20px 24px;
+}
 .examples-text {
-  padding: 4px 24px 20px 24px;
   color: var(--main-textcolor);
 }
 .examples-button:hover,
@@ -279,9 +284,7 @@ body {
   line-height: 1.875;
 }
 .examples-list .title {
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-left: 24px;
+  margin-bottom: 4px;
   color: var(--sec-textcolor);
 
   font-weight: 700;
