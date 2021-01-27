@@ -70,6 +70,8 @@ body {
   line-height: 1.2;
 }
 .web {
+  padding-top: 24px;
+  padding-bottom: 25px;
   color: var(--accent-color);
 
   font-family: var(--second-font);
@@ -81,6 +83,7 @@ body {
   display: flex;
 }
 .site-nav .link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--sec-textcolor);
@@ -100,6 +103,7 @@ body {
   margin-right: 50px;
 }
 .contact-nav .link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--main-textcolor);
@@ -214,8 +218,7 @@ body {
   text-align: center;
 }
 .team-textblock {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px;
 }
 .ourteam-list .title {
   display: flex;
